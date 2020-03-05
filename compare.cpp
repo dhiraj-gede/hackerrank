@@ -4,26 +4,26 @@ using namespace std;
 int main(){
     int x[3],y[3];
     int alice, bob;
-    alice=0;
+    alice=0;                                //assigning initial values to zero
     bob=0;
-    //cout<<"Enter alex's score: ";
-    for(int i=0; i<3; i++){
+    //cout<<"Enter alice's triplet: ";
+    for(int i=0; i<3; i++){                     //filling up array
         cin>>x[i];
     } 
-    //cout<<"Enter bob's score: ";
+    //cout<<"Enter bob's triplet: ";
     for(int i=0; i<3; i++){
         cin>>y[i];
     }
     for(int i=0; i<3; i++)
         {
-            if(x[i]==y[i])
+            if(x[i]==y[i])                      
             {
-                continue;
+                continue;                           // no change
             }
             if(x[i]>y[i])
             {
                 
-                bob+=1;
+                bob+=1;                             // bob= 1+bob;
                
             }
             if (x[i]<y[i])
