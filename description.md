@@ -1,3 +1,3 @@
 # hackerrank
-My solutions for hackerrank problems
-do give a feedback
+My solutions for hackerrank problems,
+please drop a feedback
